@@ -89,7 +89,7 @@ print("\nData saved to 'tess_data'")
 
 
 
-# Converting The Dataset to Excel
+# Converting The Dataset to an Excel Spreadsheet
 We can convert the light curve data from a FIT file into a excel spreadsheet using the lightkurve and pandas libraries
 
 

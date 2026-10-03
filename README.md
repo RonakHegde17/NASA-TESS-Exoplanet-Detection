@@ -98,7 +98,7 @@ We can convert the light curve data from a FIT file into a excel spreadsheet usi
 
 We can now view the raw data for brightness over time for both stars. We will look at LHS 3844 as an example.
 
-time_BJD is the Barycentric Julian Date. Since the earth is moving around the sun, light from distant stars will arrive at different times depending on our location. time_BJD corrects for this and is measured in days.
+time_BJD is the Barycentric Julian Date. Since Earth is moving around the sun, light from distant stars will arrive at different times depending on our location. The time_BJD corrects for this and is measured in days.
 
 flux is the measured brightness. Since we are only interested in the change in brightness, the units don't matter and we can normalize the median around 1.0. This will allow us to more easily view peaks and dips in the brightness
 <img width="1075" height="980" alt="image" src="https://github.com/user-attachments/assets/34f740d3-9843-4088-8f42-4fccbab5cefa" />

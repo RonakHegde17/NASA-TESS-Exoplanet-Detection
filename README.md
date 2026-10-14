@@ -108,6 +108,7 @@ We can now view the raw data for brightness over time for both stars. We will lo
 time_BJD is the Barycentric Julian Date. Since Earth is moving around the sun, light from distant stars will arrive at different times depending on our location. The time_BJD corrects for this and is measured in days.
 
 flux is the measured brightness. Since we are only interested in the change in brightness, the units don't matter and we can normalize the median around 1.0. This will allow us to more easily view peaks and dips in the brightness
+
 <img width="1075" height="980" alt="image" src="https://github.com/user-attachments/assets/34f740d3-9843-4088-8f42-4fccbab5cefa" />
 
 
@@ -152,6 +153,7 @@ for planet_name, id in targets.items():
 
 # Analysis
 Using our converted excel files, we can plot one of the stars light curves to obtain the following graph
+
 <img width="1397" height="587" alt="image" src="https://github.com/user-attachments/assets/2c9597fc-61bf-45eb-a605-04939581bd3b" />
 
 
@@ -244,9 +246,11 @@ $R_{Object}$  = $R_{Star} * \sqrt{depth}$
 Using known information about each star's radius, we can calculate the radius of their orbiting objects and compare them to the radius of Earth for classification. 
 
 ### LHS 3844
+
 <img width="525" height="85" alt="image" src="https://github.com/user-attachments/assets/ecc65614-9865-4b74-8070-f1b599988535" />
 
 ### HD 189733 A
+
 <img width="415" height="75" alt="image" src="https://github.com/user-attachments/assets/a85e2e74-5e41-4a17-a0e6-8734a7d3332e" />
 
 The object orbiting LHS 3844 has a radius 1.32 times that of Earth, making it a super-Earth.

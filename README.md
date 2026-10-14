@@ -12,7 +12,9 @@ When looking for objects in the universe such as galaxies and stars, we are ofte
 Instead of directly imaging the exoplanet, we can indirectly look for them. Stars are continuously radiating light that we can detect with photometers. When an exoplanet passes between a star and our line of sight, a portion of this light is blocked.
 
 Since planets orbit at a regular interval, assuming the orbit of the planet is aligned with our line of sight, we will detect a relatively consistent pattern of dimming from the star, telling us that there is *something* (potentially a planet) blocking its light.
+
 <img width="1041" height="443" alt="image" src="https://github.com/user-attachments/assets/f58ae9a6-3c12-4627-8a41-86805ad92a53" />
+
 *Source: [University of Nebraska–Lincoln](https://astro.unl.edu/newRTs/Transits/background/Transit1.html)*
 
 This is the *transit* method of detecting exoplanets. Using data from the NASA's TESS *(Transiting Exoplanet Survey Satellite)*, we can analyze a star's brightness for periodic dips and extrapolate information about potential planets around it. 

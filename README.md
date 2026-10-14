@@ -1,9 +1,11 @@
 # NASA-TESS-Exoplanet-Detection
 
+
 # Introduction
 In 1992, we confirmed the existence of two planets orbiting the pulsar PSR B1257+12, and we have since confirmed thousands of exoplanets in the following years. Today, astronomers believe that the vast majority of star systems contain at least one exoplanet. 
 
 There are *hundreds of billions* of stars in the Milky Way, meaning there are potentially *trillions* of worlds in the Milky Way alone, so how do we look for them?
+
 # Methodology
 When looking for objects in the universe such as galaxies and stars, we are often able to detect them because of their size and brightness, but the majority of exoplanets are tiny and dark in comparison.
 
@@ -21,16 +23,19 @@ This is the *transit* method of detecting exoplanets. Using data from the NASA's
 HD 189733 b is a hot Jupiter-sized planet that orbits extremely close to its host star. It's also famous for raining molten glass sideways.
 
 NOTE: This is not the only method of detecting exoplanets
+
 # Dependencies 
 We will need the following packages
 
 ```
 pip install lightkurve numpy matplotlib pandas openpyxl astroquery
 ```
+
 ## Optional 
 ```
 pip install oktopus autograd
 ```
+
 # Downloading the Dataset
 We can download the light curves for each star from the MAST archive and save them to the desktop using the lightkurve library. The numbers are the stars' respective IDs in the archive.
 
